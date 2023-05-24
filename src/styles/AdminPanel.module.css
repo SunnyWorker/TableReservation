@@ -1,0 +1,238 @@
+
+.absolutePanel {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    z-index: 2;
+}
+
+.toggleDiv {
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.change {
+    transform: translateX(90px);
+    background-color: darkorange;
+    color: white;
+}
+
+.change:hover {
+    transform: translateX(0px);
+}
+
+.change:hover .changeToggle img {
+    transform: rotate(0.5turn);
+}
+
+.changeToggle {
+    width: 130px;
+    background-color: darkorange;
+    color: white;
+}
+
+.changeToggle img {
+    transition: all 0.4s ease-in-out;
+}
+
+.changeReservation {
+    transform: translateX(90px);
+    background-color: olive;
+    color: white;
+}
+
+.changeReservation:hover {
+    transform: translateX(0px);
+}
+
+.changeReservation:hover .changeReservationToggle img {
+    transform: rotate(0.5turn);
+}
+
+.changeReservationToggle {
+    width: 130px;
+    background-color: olive;
+    color: white;
+}
+
+.changeReservationToggle img {
+    transition: all 0.4s ease-in-out;
+}
+
+.delete {
+    transform: translateX(80.5px);
+    background-color: darkred;
+    color: white;
+}
+
+.delete:hover  {
+    transform: translateX(0px);
+}
+
+.delete:hover .deleteToggle img {
+    animation: shake 1s ease-in-out;
+}
+
+.deleteToggle {
+    width: 120px;
+    background-color: darkred;
+    color: white;
+}
+
+.toggle img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.login {
+    transform: translateX(90px);
+    background-color: white;
+    color: #790099;
+}
+
+.login:hover  {
+    transform: translateX(3px);
+}
+
+.loginToggle {
+    width: 130px;
+    background-color: white;
+    color: #790099;
+    border: #790099;
+}
+
+.logout {
+    transform: translateX(90px);
+    background-color: #790099;
+    color: white;
+}
+
+.logout:hover  {
+    transform: translateX(3px);
+}
+
+.logoutToggle {
+    width: 130px;
+    background-color: #790099;
+    color: white;
+}
+
+.registration {
+    transform: translateX(110px);
+    background-color: white;
+    color: #790099;
+}
+
+.registration:hover  {
+    transform: translateX(0px);
+}
+
+.registrationToggle {
+    width: 150px;
+    background-color: white;
+    color: #790099;
+    border: #790099;
+}
+
+.reservation {
+    transform: translateX(130px);
+    background-color: black;
+    color: white;
+}
+
+.reservation:hover  {
+    transform: translateX(0px);
+}
+
+.reservationToggle {
+    width: 170px;
+    background-color: black;
+    color: white;
+}
+
+.filter {
+    transform: translateX(80px);
+    background-color: green;
+    color: white;
+}
+
+.filter:hover {
+    transform: translateX(0px);
+}
+
+.filterToggle {
+    width: 120px;
+    background-color: green;
+    color: white;
+}
+
+@keyframes shake {
+    from {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(30deg);
+    }
+    40% {
+        transform: rotate(-30deg);
+    }
+    60% {
+        transform: rotate(15deg);
+    }
+    80% {
+        transform: rotate(-15deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+.filter:hover .filterToggle img {
+    animation: shakeFilter 0.5s ease-in-out;
+}
+
+@keyframes shakeFilter {
+    from {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(10deg);
+    }
+    40% {
+        transform: rotate(-10deg);
+    }
+    60% {
+        transform: rotate(5deg);
+    }
+    80% {
+        transform: rotate(-5deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}

@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 50px 50px;
+}
+
+.header a {
+    font-family: Naga;
+    font-size: xxx-large;
+    color: #3e8e41;
+    text-decoration: none;
+    margin: 70px 0 70px 0;
+}
+
+.header a h1{
+    margin: 0 0 0 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #3e8e41;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}

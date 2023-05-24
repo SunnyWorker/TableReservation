@@ -1,0 +1,17 @@
+.bookingDiv {
+    display: flex;
+    color: #3e8e41;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 100px 100px 100px;
+}
+
+.bookingNameH1 {
+    font-family: Naga;
+    font-size: xx-large;
+    color: #3e8e41;
+    text-decoration: none;
+}

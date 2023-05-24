@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 100px 40px;
+    align-items: center;
+}
+
+.tableZone {
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    border: whitesmoke 5px solid;
+    margin-right: 40px;
+    background-color: white;
+}
+
+.freeTable {
+    border-radius: 50%;
+    background-color: yellowgreen;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.freeTable:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.busyTable {
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.busyTable:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.selectedTable {
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.selectedTable:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
